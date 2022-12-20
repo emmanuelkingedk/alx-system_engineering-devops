@@ -1,17 +1,2 @@
-root@67a55874f388:~/alx-system_engineering-devops/0x03-shell_variables_expansions# git commit -m "exponent"
-[master ef17fc5] exponent
- 1 file changed, 0 insertions(+), 0 deletions(-)
- rename 0x03-shell_variables_expansions/{10-love_exponential_breath => 10-love_exponent_breath} (100%)
-root@67a55874f388:~/alx-system_engineering-devops/0x03-shell_variables_expansions# git push
-Enumerating objects: 5, done.
-Counting objects: 100% (5/5), done.
-Delta compression using up to 2 threads
-Compressing objects: 100% (3/3), done.
-Writing objects: 100% (3/3), 289 bytes | 289.00 KiB/s, done.
-Total 3 (delta 2), reused 0 (delta 0)
-remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
-To https://github.com/emmanuelkingedk/alx-system_engineering-devops.git
-   80e526d..ef17fc5  master -> master
-root@67a55874f388:~/alx-system_engineering-devops/0x03-shell_variables_expansions# vim 11-binary_to_decimal
 #!/bin/bash
 echo $((2#BINARY)o)
